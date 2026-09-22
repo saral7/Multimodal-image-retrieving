@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <header>
+      <div class = "title" style="display: flex; justify-content:space-around;">
+        <div>Reference</div>
+        <div>Target</div>
+      </div>
+    </header>
+    <div style="display: flex; justify-content:space-between; margin-bottom: 20px">
+      
+      <div  style="display: flex; width: 45vw; justify-content:space-around">
+        <img id="img-ref" style="height:400px">
+      </div>
+      <div style="display: flex; width: 45vw; justify-content:space-around">
+        <img id="img-tar" style="height:400px">
+      </div>
+    </div>
+    <div style="display: flex; gap: 50px">
+      <div><div>Image description:</div> <textarea id="description" style="width: 300px;"></textarea></div>
+      <div><div>Relative caption:</div> <textarea id="relative-caption" style="width: 300px;"></textarea></div>
+      <button id="save-button" style="height: 50px">Save</button> 
+    </div>
+    <div style="display: flex; justify-content:space-between">
+      <div id="reference" style="display: flex; flex-wrap: wrap; justify-content:space-between; overflow-y: scroll; height: 80vh">
+      
+    </div> 
+    <div id="target" style="display: flex; flex-wrap: wrap; justify-content:space-between; overflow-y: scroll; height: 80vh">
+      
+    </div>
+    </div>
+    
+  </body> 
+  <script src = "data.js"></script>
+  <script src = "annotator.js"></script>
+</html>
